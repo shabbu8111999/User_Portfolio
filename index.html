@@ -8,7 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="dark-theme">
 
     <!-- ================= NAVIGATION ================= -->
     <nav class="navbar">
@@ -21,32 +21,57 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- ================= HEADER (INTERACTIVE HERO) ================= -->
+    <header id="hero-header">
+        <div class="hero-content">
+            <h1 class="hero-greeting">Namaste 🙏</h1>
+            <h2 class="hero-name">Hello Everyone, I’m <span>Shabareesh Nair</span></h2>
 
-    <!-- ================= HEADER ================= -->
-    <header>
-        <h1>Shabareesh Nair</h1>
-        <p>Data Science | AI / ML | Software Enthusiast</p>
+            <p class="hero-tagline">
+                Transforming data into intelligence, and intelligence into impact.
+            </p>
+        </div>
     </header>
 
     <!-- ================= ABOUT ================= -->
-    <section id="about" class="section-hidden">
-        <h2>About Me</h2>
-        <p>
-            I am a Data Science and AI/ML fresher with a strong academic foundation and
-            hands-on experience in building machine learning and software projects.
-            I have worked with Python, data analysis, and modern development tools,
-            and I am actively strengthening my JavaScript and frontend skills to build
-            complete, real-world applications.
-        </p>
-        <p>
-            I am particularly interested in applying data-driven and intelligent
-            solutions to practical problems, and I enjoy learning technologies from
-            first principles with a focus on clean code, clarity, and scalability.
-        </p>
+    <section id="about" class="section-hidden about-section">
+        <div class="about-container">
+
+            <!-- Profile Image -->
+            <div class="about-image">
+                <!-- Replace src with your actual image path -->
+                <img src="assets/images/profile.jpg" alt="Shabareesh Nair">
+            </div>
+
+            <!-- About Text -->
+            <div class="about-text">
+                <h2>About Me</h2>
+
+                <p class="about-intro">
+                    I am a Data Science and AI/ML fresher with a strong academic foundation
+                    and hands-on experience in machine learning, data analysis,
+                    and software development.
+                </p>
+
+                <p>
+                    My work focuses on understanding data deeply, building intelligent models,
+                    and creating clean, scalable systems that solve real-world problems.
+                    Alongside Python and AI/ML technologies, I am strengthening my
+                    JavaScript and frontend skills to develop complete, end-to-end applications.
+                </p>
+
+                <p>
+                    I believe in learning from first principles, writing readable code,
+                    and building technology that is ethical, interpretable, and impactful.
+                </p>
+            </div>
+
+        </div>
     </section>
 
     <!-- ================= EDUCATION ================= -->
@@ -69,11 +94,11 @@
             <li><strong>Data Science:</strong> Pandas, NumPy, Data Analysis</li>
             <li><strong>Machine Learning:</strong> Supervised & Unsupervised Learning</li>
             <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
-            <li><strong>Web:</strong> HTML, CSS, JavaScript (Basics)</li>
+            <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
         </ul>
     </section>
 
-    <!-- ================= INTERNSHIP ================= -->
+    <!-- ================= EXPERIENCE ================= -->
     <section id="experience" class="section-hidden">
         <h2>Internship Experience</h2>
 
@@ -81,9 +106,9 @@
             <h3>AI / ML Engineer Intern</h3>
             <p class="organization">[Company Name]</p>
             <ul>
-                <li>Worked on machine learning models and data preprocessing</li>
-                <li>Performed data analysis and feature engineering</li>
-                <li>Collaborated on real-world AI/ML use cases</li>
+                <li>Developed and evaluated machine learning models</li>
+                <li>Performed data preprocessing and feature engineering</li>
+                <li>Worked on real-world AI/ML problem statements</li>
             </ul>
         </div>
     </section>
@@ -92,20 +117,33 @@
     <section id="projects" class="section-hidden">
         <h2>Projects</h2>
 
-        <div class="project-item">
-            <h3>Project Title 1</h3>
-            <p>
-                Brief description of the project, problem statement,
-                tools used, and outcome.
-            </p>
-        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Customer Churn Prediction</h3>
+                <p>
+                    Built predictive ML models to identify churn patterns
+                    using structured customer data.
+                </p>
+                <span>Python · Machine Learning · Analytics</span>
+            </div>
 
-        <div class="project-item">
-            <h3>Project Title 2</h3>
-            <p>
-                Brief description of the project, technologies used,
-                and learning outcome.
-            </p>
+            <div class="project-card">
+                <h3>Resume Parser (NLP)</h3>
+                <p>
+                    Designed an NLP-based system to extract structured information
+                    from resumes using LLMs.
+                </p>
+                <span>NLP · LLM · Python</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    Developed a responsive and animated personal portfolio
+                    using vanilla web technologies.
+                </p>
+                <span>HTML · CSS · JavaScript</span>
+            </div>
         </div>
     </section>
 
@@ -116,6 +154,17 @@
         <ul>
             <li>Certification Name – Issuing Organization</li>
             <li>Certification Name – Issuing Organization</li>
+        </ul>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section-hidden">
+        <h2>Contact</h2>
+
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:shabareesh08@gmail.com">shabareesh08@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/shabbu8111999" target="_blank">github.com/shabbu8111999</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/shabareesh-nair/" target="_blank">linkedin.com/in/shabareesh-nair</a></li>
         </ul>
     </section>
 
